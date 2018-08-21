@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpgHelper.CLI", "RpgHelper.CLI\RpgHelper.CLI.csproj", "{88234C28-CC53-41C7-90D4-05F7EBBF3FF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpgHelper.BLL", "RpgHelper.BLL\RpgHelper.BLL.csproj", "{D3B44F0E-B0C2-4728-A7DD-7F78EDDD519B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3CBCD03F-F7AA-4B08-8CBB-9811DC36212B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpgHelper.Tests", "RpgHelper.Tests\RpgHelper.Tests.csproj", "{D43E3A62-C543-4062-814A-C564BE0FD98C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88234C28-CC53-41C7-90D4-05F7EBBF3FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88234C28-CC53-41C7-90D4-05F7EBBF3FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88234C28-CC53-41C7-90D4-05F7EBBF3FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88234C28-CC53-41C7-90D4-05F7EBBF3FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3B44F0E-B0C2-4728-A7DD-7F78EDDD519B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3B44F0E-B0C2-4728-A7DD-7F78EDDD519B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3B44F0E-B0C2-4728-A7DD-7F78EDDD519B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3B44F0E-B0C2-4728-A7DD-7F78EDDD519B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D43E3A62-C543-4062-814A-C564BE0FD98C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D43E3A62-C543-4062-814A-C564BE0FD98C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D43E3A62-C543-4062-814A-C564BE0FD98C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D43E3A62-C543-4062-814A-C564BE0FD98C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D43E3A62-C543-4062-814A-C564BE0FD98C} = {3CBCD03F-F7AA-4B08-8CBB-9811DC36212B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F550F499-85CE-4DAC-89A4-F8EA8EAD3A71}
+	EndGlobalSection
+EndGlobal
